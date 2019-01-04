@@ -1,0 +1,92 @@
+/* ==== Table of content ====
+1. RESET
+2. BODY & MAIN
+	- @font
+	- Clear
+	- Layout
+	- Basic style
+	- Typography
+	- Forms
+3. HEADER
+4. MAIN CONTENT
+5. FOOTER
+
+*/
+
+/* 01. RESET
+======================================*/
+
+html, body, div, span, header, article, footer, nav, aside, section, address, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, strong, em, img {
+	margin: 0;
+	padding: 0;
+}
+
+/* 2. BODY & MAIN
+======================================*/
+
+/*@font */
+/* Clear */
+.clear:before, 
+.clear:after {
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear: both;
+}
+
+/* Layout */
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+header,
+article,
+footer {
+	margin-bottom: 30px;
+	padding: 30px;
+	border: 1px solid #999;
+}
+
+/* Basic style */
+body {
+	background-color: #fafafa;
+	color: #393939;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+}
+p {
+	margin-bottom: 15px;
+}
+
+/* Typography */
+h1, h2, h3 {
+	color: #d84f34;
+}
+h1 {
+	font: 400 24px "Roboto Slab", sans-serif;
+}
+h2, h3 {
+	margin-bottom: 20px;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+}
+h2 {
+	font-size: 23px;
+}
+h3 {
+	font-size: 20px;
+}
+
+/* Forms */
+
+/* 3. HEADER
+======================================*/
+
+
+/* 4. MAIN CONTENT
+======================================*/
+
+
+/* 5. FOOTER
+======================================*/
