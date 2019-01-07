@@ -1,0 +1,15 @@
+/* Index Page */
+.index-page .page-header .content-center.brand {
+    width: 100%;
+}
+.index-page .page-header h1 {
+    font-size: 3em;
+}
+.index-page .main .title, 
+.main .section-basic .description {
+    text-align: center;
+}
+.index-page .main .description {
+    margin-bottom: 50px;
+    font-size: 1.0625rem;
+}

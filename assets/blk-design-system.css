@@ -100,7 +100,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6050,7 +6050,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6175,7 +6175,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14326,7 +14326,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card h1,
@@ -16385,10 +16385,9 @@ textarea.form-control:active {
 }
 
 .index-page .page-header .container>.content-center.brand .h1-seo,
-.index-page .page-header .container>.content-center.brand h3 {
+.index-page .page-header .container>.content-center.brand .h3 {
   color: #ffffff;
   font-weight: 600;
-  font-family: Calibri, sans-serif;
 }
 
 .index-page .page-header .container>.content-center.brand .h1-seo span,
