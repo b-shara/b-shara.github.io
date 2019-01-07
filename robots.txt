@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://b-shara.github.io/sitemap.xml
+
+Host: b-shara.github.io
