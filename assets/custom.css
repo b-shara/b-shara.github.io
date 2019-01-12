@@ -1,3 +1,10 @@
+/* Navbar */
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2rem;
+    }
+}
+
 /* Index Page */
 .index-page .page-header .content-center.brand {
     width: 100%;
@@ -13,3 +20,127 @@
     margin-bottom: 50px;
     font-size: 1.0625rem;
 }
+
+/* Movie Page */
+.movie-page .first-screen {
+    padding-top: 50px;
+}
+.movie-page section {
+    padding-bottom: 100px;   
+}
+.movie-page .wrapper>.path {
+    max-width: 65%;
+    right: 0;
+    top: 330px;
+}
+.movie-page .movie-title {
+    margin-bottom: 100px;
+}
+.movie-page h1 {
+    margin-left: 55px;
+    margin-bottom: 0;
+}
+.movie-page .movie-title .text-on-back {
+    margin: 0;
+    top: 35px;
+    font-size: 6em;
+    line-height: 1;
+}
+.movie-page .movie-info {
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.movie-page .movie-info .line-success {
+    display: block;
+}
+.movie-page .movie-info p {
+    margin-bottom: 20px;
+}
+.movie-page .movie-info h2 {
+    color: hsla(0,0%,100%,.8);
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.movie-page .movie-meta li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: hsla(0,0%,100%,.8);
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.movie-page .movie-meta .tim-icons {
+    width: auto;
+    height: auto;
+    margin-right: 1rem;
+    color: #00f2c3;
+    font-size: 21px;
+}
+.movie-page .movie-meta li span {
+    margin-left: 0.3rem;;
+}
+.movie-page .movie-meta .icon-badge+span {
+    color: #fff;
+}
+.movie-page .movie-meta .long {
+    position: absolute;
+}
+
+@media screen and (max-width: 991px) {
+    .movie-page h1 {
+        font-size: 2.7rem;
+    }
+    .movie-page .movie-title .text-on-back {
+        top: 25px;
+        font-size: 4em;
+    }
+    .movie-page .movie-meta {
+        display: none;
+    }
+    .movie-page iframe {
+        width: 640px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movie-page section {
+        padding-bottom: 50px;   
+    }
+    .movie-page .first-screen {
+        padding-top: 25px;
+    }
+    .movie-page .movie-title {
+        margin-bottom: 50px;
+    }
+    .movie-page h1 {
+        margin-left: 25px;
+        font-size: 2rem;
+    }
+    .movie-page .movie-title .text-on-back {
+        top: 20px;
+        font-size: 3em;
+    }
+    .movie-page .movie-poster {
+        display: none;
+    }
+    .movie-page .movie-meta {
+        display: flex;
+    }
+    .movie-page .movie-meta .long {
+    position: static;
+}
+    .movie-page iframe {
+        width: 426px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .movie-page iframe {
+        display: none;
+    }
+}
+
+
