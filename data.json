@@ -1,1 +1,22 @@
-{"movies":[{"year":2018,"titleen":"Tell It to the Bees","titleru":"Расскажи это пчелам"},{"year":2017,"titleen":"My days of Mercy","titleru":"Мои дни с Мёрси"},{"year":2018,"titleen":"Lizzie","titleru":"Месть Лиззи Борден"},{"year":2018,"titleen":"What Keeps You Alive","titleru":"Что тебе нужно для жизни"}]}
+{
+	"movies": [
+		{
+			"id": 1,
+			"poster": {
+				"min": "https://b-shara.github.io/media/lizzie-2018.small.jpg",
+				"max": "https://b-shara.github.io/media/lizzie-2018.jpg",
+				"alt": "My Days of Mercy"
+			},
+			"title": {
+				"en": "My Days of Mercy",
+				"ru": "Мои дни с Мёрси"
+			},
+			"year": 2017,
+			"theme": "75%",
+			"rating": 5,
+			"trailer": "YmFTK-rnzfk",
+			"description": "",
+			"review": ""
+		}
+	]
+}
