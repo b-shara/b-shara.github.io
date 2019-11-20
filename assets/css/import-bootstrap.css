@@ -1,0 +1,37 @@
+/* Bootstrap Reboot - базовый стиль основных HTML элементов */ 
+@import 'bootstrap/bootstrap-reboot.css';
+
+/* Content - Typography */ 
+@import 'bootstrap/content-typography.css';
+
+/* Content - Images, Figures, Code */
+@import 'bootstrap/content.css';
+
+/* Layout - Grid system */
+@import 'bootstrap/layout-grid-system.css';
+
+/* Content - Tables */
+@import 'bootstrap/content-table.css';
+
+/* Components - Forms */
+@import 'bootstrap/components-form.css';
+
+/* Components - Buttons */
+@import 'bootstrap/components-button.css';
+
+/* Components (bundle) - JS behavior (Fade Effect), Collapse, Dropdowns, Button group, Input group */
+@import 'bootstrap/components.css';
+
+/* Components - Forms (custom) */
+@import 'bootstrap/components-form-custom.css';
+
+/* Components - Navs, Navbar */
+@import 'bootstrap/components-navigation.css';
+
+/* Components - Cards */
+@import 'bootstrap/components-card.css';
+
+@import 'bootstrap/add-later.css';
+
+/* Utilities for layout - Display, Flex, Spacing (margin and padding) */
+@import 'bootstrap/utilities-layout.css';
