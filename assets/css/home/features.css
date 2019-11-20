@@ -1,0 +1,77 @@
+.features {
+    margin-bottom: 3rem;
+}
+@media (min-width: 768px) { /*.col-md */
+	.features .row .panel {
+        flex: 0 0 calc(50% - 5px);
+        max-width: (50% - 5px);
+    }
+}
+@media (min-width: 992px) { /*.col-lg */
+	.features .row .panel {
+        flex: 0 0 calc(33.333333% - 7px);
+        max-width: (33.333333% - 7px);
+    }
+}
+.panel {
+    min-height: 85px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: #456;
+    box-shadow: inset 0 1px 0 hsla(0,0%,100%,.1); 
+}
+.panel.films:hover {
+    background-color: #ee7000;
+}
+.panel.calendar:hover {
+    background-color: #209cd4;
+}
+/*
+.panel.about:hover {
+    background-color: #00c030;
+}
+*/
+.panel.channel:hover {
+    background-color: #800000;
+}
+.panel .has-icon {
+    top: -3px;
+    padding: 16px 20px 18px;
+    vertical-align: middle;
+}
+.panel .icon {
+    top: 5px;
+	display: block;
+    float: left;
+    width: 50px;
+    height: 33px;
+}
+.panel.films .icon {
+    background-position: -750px -510px;
+}
+.panel.films:hover .icon {
+    background-position: -750px -960px;
+}
+.panel.calendar .icon {
+    background-position: -650px -510px;
+}
+.panel.calendar:hover .icon {
+    background-position: -650px -960px;
+}
+.panel.channel .icon {
+    background-position: -500px -510px;
+}
+.panel.channel:hover .icon {
+    background-position: -500px -960px;
+}
+.panel p {
+    margin-left: 65px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    color: #def; /* #ddeeff */
+    font-size: 1.166rem;
+    line-height: 1.5;
+}
+.panel:hover p {
+    color: #fff;
+}
