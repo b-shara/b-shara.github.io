@@ -1,0 +1,39 @@
+/* Banner */
+@import 'banner.css';
+/* Navbar */
+@import 'navbar.css';
+/* Poster */
+@import 'poster.css';
+/* Movie Header */
+@import 'movie/info.css';
+/* Movie Description */
+@import 'movie/description.css';
+/* Movie Meta */
+@import 'movie/meta.css';
+
+.movie main {
+	padding-bottom: 30px;
+}
+.movie main .container-fluid {
+    position: relative;
+}
+@media (max-width: 575.98px) { /*.col-   с префиксом */
+	.movie main:before {
+		padding-top: 43%;
+	}
+}
+@media (min-width: 576px) { /*.col-sm */
+	.movie main:before {
+		padding-top: 42%;
+	}
+}
+@media (min-width: 768px) { /*.col-md */
+	.movie main:before {
+		padding-top: 40%;
+	}
+}
+@media (min-width: 992px) { /*.col-lg */
+	.movie main:before {
+		padding-top: 35%;
+	}
+}
