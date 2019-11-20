@@ -1,0 +1,76 @@
+/* Banner */
+@import 'banner.css';
+/* Navbar */
+@import 'navbar.css';
+/* Poster */
+@import 'poster.css';
+/* Home: Features */
+@import 'home/features.css';
+/* Home: New Films */
+@import 'home/new.css';
+
+.home main {
+    padding-bottom: 20px;
+}
+.home main .container-fluid {
+    position: relative;
+}
+.home .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.welcome {
+    margin-bottom: 4.61rem; 
+}
+.welcome .row .col-11 {
+	margin: 0 auto;
+}
+.welcome h1 {
+    color: #fff;
+	font-size: 2.307rem;
+	line-height: 1.4;
+}
+.welcome .lead {
+    color: #abc;
+    font-size: 2rem;
+	line-height: 1.23;
+}
+.home .tagline {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 575.98px) { /*.col-   с префиксом */
+	.home main:before {
+		padding-top: 35%;
+	}
+	.welcome h1 {
+		font-size: 1.692rem;
+	}
+	.welcome .lead {
+		font-size: 1.307rem;
+		line-height: 1.529;
+	}
+	.welcome .lead span {
+		display: block;
+	}
+}
+@media (min-width: 576px) { /*.col-sm */
+	.home main:before {
+		padding-top: 34%;
+	}
+}
+@media (min-width: 768px) { /*.col-md */
+	.home main:before {
+		padding-top: 32%;
+	}
+	.welcome h1 {
+		font-size: 2.769rem;
+		line-height: 1.333;
+	}	
+}
+@media (min-width: 992px) { /*.col-lg */
+	.home main:before {
+		padding-top: 28%;
+	}
+}
