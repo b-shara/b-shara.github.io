@@ -1,0 +1,37 @@
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+    padding: 5.5px 0;
+}
+nav.bg-dark {
+    background-color: #14181c !important;
+}
+.navbar-brand {
+    font-size: 16px;
+}
+.navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #14181c;
+    box-shadow: 0 10px 10px #000;
+}
+.navbar-nav {
+    padding: 10px 15px 4px;
+}
+.nav-item {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+}
+.nav-link {
+    padding: 13px 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: inherit;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}

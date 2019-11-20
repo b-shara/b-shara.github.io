@@ -1,0 +1,80 @@
+.backdrop-container,
+.backdrop-wrapper {
+	position: absolute;
+	left: 0;
+	z-index: 0;
+    width: 100%;
+	height: 0;
+}
+.backdrop-container {
+    top: 40px;
+    overflow: hidden;
+}
+.backdrop-wrapper {
+    top: 0;
+}
+.backdrop-wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(20,24,28,0)),color-stop(50%,rgba(20,24,28,0)),color-stop(75%,rgba(20,24,28,.75)),to(#14181c));
+    background: -o-linear-gradient(top,rgba(20,24,28,0) 0,rgba(20,24,28,0) 50%,rgba(20,24,28,.75) 75%,#14181c 100%);
+    background: linear-gradient(180deg,rgba(20,24,28,0) 0,rgba(20,24,28,0) 50%,rgba(20,24,28,.75) 75%,#14181c);
+}
+.backdropimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.95%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 100% auto;
+}
+
+main:before {
+    content: "";
+    display: block;
+    width: 100%;
+}
+
+/* for Home Page */
+.home .backdrop-container,
+.home .backdrop-wrapper {
+	padding-top: 30%;
+}
+@media (max-width: 575.98px) {
+	.home .backdropimage {
+		background-image: url('../img/backdrop-xs-540.jpg');
+	}
+}
+@media (min-width: 576px) {
+	.home .backdropimage {
+		background-image: url('../img/backdrop-sm-720.jpg');
+	}
+}
+@media (min-width: 768px) {
+	.home .backdropimage {
+		background-image: url('../img/backdrop-md-960.jpg');
+	}
+}
+@media (min-width: 992px) {
+	.home .backdropimage {
+		background-image: url('../img/backdrop-lg-1200.jpg');
+	}
+}
+@media (min-width: 1200px) {
+	.home .backdropimage {
+		background-image: url('../img/backdrop-xl-1920.jpg');
+	}
+}
+
+/* for Movie Page */
+.movie .backdrop-container,
+.movie .backdrop-wrapper {
+	padding-top: 40%;
+}
