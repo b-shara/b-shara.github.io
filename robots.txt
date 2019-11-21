@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /films
 Disallow: /pd
 Disallow: *yandex
 Disallow: *google
