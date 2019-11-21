@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /pd
 Disallow: *yandex
 Disallow: *google
+Disallow: *empty
 
 Sitemap: https://b-shara.github.io/sitemap.xml
