@@ -17,6 +17,7 @@
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	color: #00e054;
+	font-size: 13px;
 }
 .movie-meta .nav-link:hover {
 	border-bottom: 1px solid #00e054;
@@ -28,8 +29,7 @@
 }
 @media (max-width: 575.98px) { /*.col-   с префиксом */
 	.movie-meta .nav-item {
-		margin-right: 10px;
-		font-size: .8em;
+		margin-right: 15px;
 	}
 }
 
@@ -52,7 +52,7 @@
 	padding: 3px 6px;
     border-radius: 3px;
 	background-color: #242c34;
-	font-size: .923rem;
+	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
     white-space: nowrap;
