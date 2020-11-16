@@ -24,9 +24,9 @@
 	color: #def;
 	font-size: 18px;
 	line-height: 1.6;
+	text-shadow: #000 2px 0 5px;
 }
 .movie-info .title-ru {
-	margin-bottom: 16px;
 	font-size: 16px;
 	line-height: 1.6;
 	text-shadow: #000 2px 0 5px;
@@ -36,7 +36,7 @@
 }
 .movie-info .trailer {
 	position: relative;
-	top: 1px;
+	top: 5px;
 	padding: 7px 8px 6px;
 	border-radius: 5px;
 	background-color: #456;
