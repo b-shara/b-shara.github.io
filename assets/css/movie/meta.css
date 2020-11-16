@@ -13,17 +13,22 @@
 .movie-meta .nav-link {
 	padding-top: 0;
 	padding-bottom: 5px;
-	border: none;
+	border: 1px solid #14181c;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	color: #00e054;
 	font-size: 13px;
 }
 .movie-meta .nav-link:hover {
-	border-bottom: 1px solid #00e054;
+	border-color: #14181c;
+	border-bottom-color: #00e054;
+}
+.movie-meta .nav-link:active {
+	border-color: #14181c;
 }
 .movie-meta .nav-link.active {
-	border-bottom: 1px solid #fff;
+	border-color: #14181c;
+	border-bottom-color: #fff;
 	background-color: transparent;
 	color: #fff;
 }
@@ -48,7 +53,7 @@
 }
 .movie-meta .badge {
 	display: inline-block;
-	margin-right: 1px;
+	margin-right: 2px;
 	margin-bottom: 1em;
 	padding: 3px 6px;
     border-radius: 3px;
@@ -86,14 +91,14 @@
 }
 .movie-meta .rating strong {
 	color: #abc;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 }
 .movie-meta .rating .date {
 	display: inline-block;
 	margin-left: 15px;
 	margin-bottom: 0;
-	font-size: 16px;
+	font-size: 14px;
 	color: #678;
 }
 .movie-meta .rating .icon {
