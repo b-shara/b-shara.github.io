@@ -1,3 +1,0 @@
-﻿hello
-[i18n]
-	logOutputEncoding = utf-8
